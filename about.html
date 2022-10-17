@@ -71,7 +71,7 @@
           <div class="me-icon-container">
             <img
               class="me-icon"
-              src="./img/me-icon.gif"
+              src="./img/me.png"
               alt="Icon of myself with my bear puppy, Coconut, on top of my head"
               title="Icon of me and Coconut. Art credits to my friend Steph."
             />
@@ -115,15 +115,24 @@
           <div class="education-experience-card">
             <div class="card-info">
               <h4 class="green">B.S. Computer Science</h4>
-              <p class="date">Aug 2020 - Dec 2023</p>
+              <p class="date">Aug 2020 - May 2024</p>
               <p>
-                Georgia Tech<br />
+                Georgia Institute of Technology<br />
                 Atlanta, GA
               </p>
             </div>
             <div class="card-description">
               <h5>Achievements</h5>
               <p>Faculty's Honors - Fall 2020, Spring 2021, Fall 2021</p>
+              <p>
+                Winner of HackIllinois 2022, HackTech 2022, Hack WashU 2022, and
+                Girls Hoo Hacks 2022
+              </p>
+              <p>
+                Recipient of the Simons Undergraduate Research Fellowship
+                2022-2023 to conduct research in Computational Neuroscience
+              </p>
+              <br />
 
               <h5>Relevant Coursework</h5>
               <p>CS 1332 - Data Structures and Algorithms</p>
@@ -131,6 +140,9 @@
               <p>CS 2110 - Assembly and C</p>
               <p>CS 2200 - Intro to Computer Systems and Networks</p>
               <p>CS 2340 - Object and Design</p>
+              <p>CS 3510 - Design and Analysis of Algorithms</p>
+              <p>CS 3600 - Intro to AI</p>
+              <p>CS 4641 - Machine Learning</p>
             </div>
           </div>
         </div>
@@ -140,23 +152,65 @@
           <h3>Experience</h3>
           <div class="education-experience-card">
             <div class="card-info">
-              <h4 class="green">Backend Developer</h4>
-              <p class="date">Jan 2022 - Present</p>
+              <h4 class="green">Simons Undergraduate Research Fellow</h4>
+              <p class="date">Feb 2022 - Present</p>
               <p>
-                <a href="https://get.popmenu.com/">Bits of Good</a><br />
+                <a href="https://get.popmenu.com/"
+                  >Systems Neural Engineering Lab - Emory University</a
+                ><br />
                 Atlanta, GA
               </p>
             </div>
             <div class="card-description">
               <p>
-                Utilize Next.js, TypeScript, and MongoDB to implement the
-                backend solution of Project AccessH2O, an online portal for
-                AccessH2O’s admin & utility companies to manage customers info
-                and to simplify the process of qualifying new customers.
+                Prototype and evaluate different deep learning models to decode
+                brain signals into finger movements to power a brain-machine
+                interface that aims to restore motor function in people with
+                upper-limb paralysis.
               </p>
               <p>
-                Enabled user authentication and role-based authorization to
-                differentiate access scope among admin and utility companies.
+                Implement an interactive simulator of a dexterous hand with
+                DeepMind’s MuJoCo, using multi-threading to reduce latency from
+                15ms to < 0.01ms.
+              </p>
+              <p>
+                Develop the processing and consumer layers of an in-house node
+                graph pipeline backed by Redis to process raw finger data and
+                command the hand model in real time, with the capability to
+                handle streaming data in less than 5ms intervals.
+              </p>
+            </div>
+          </div>
+          <div class="education-experience-card">
+            <div class="card-info">
+              <h4 class="green">Backend Developer Intern</h4>
+              <p class="date">May 2022 - Aug 2022</p>
+              <p>
+                Systems Neural Engineering Lab - Emory University<br />
+                Atlanta, GA
+              </p>
+            </div>
+            <div class="card-description">
+              <p>
+                Developed a solution for caching accessible API versions across
+                all GraphQL schemas to optimize execution time of over 2M API
+                requests per minute, reducing version resolution time by 50%.
+              </p>
+              <p>
+                Proposed and evaluated approaches to migrate a pagination
+                wrapper class built on top of a 5-year-old legacy code to a
+                publicly supported GraphQL-Ruby model, expected to reduce
+                maintenance overhead.
+              </p>
+              <p>
+                Implemented an opinionated mixin to guardrail incoming requested
+                API version and enrich response metadata, standardizing this
+                design pattern for all Shopify APIs.
+              </p>
+              <p>
+                Added 5 schema lint rules to provide compliance checks against
+                Shopify’s API standards and expose consistent endpoints to
+                internal teams and 3rd-party app developers.
               </p>
             </div>
           </div>
@@ -165,33 +219,24 @@
               <h4 class="green">Research Assistant</h4>
               <p class="date">Aug 2020 - Present</p>
               <p>
-                Translational Neuro-Engineering Lab (Emory School of
-                Medicine)<br />
+                Translational Neuro-Engineering Lab - Emory University<br />
                 Atlanta, GA
               </p>
             </div>
             <div class="card-description">
               <p>
                 Developed plan to migrate an existing computational model of
-                epileptic seizure to a new MATLAB-based library through gap
-                analysis between two libraries and data model evaluation to
-                enable ML capabilities for the study.
+                epileptic seizures to a new MATLAB-based library to enable ML
+                capabilities for the study.
               </p>
               <p>
-                Prioritized must-have functionalities and introduced 12 new
-                features and classes to the new library, added an abstraction
-                layer for model initialization, cleaned up the codebase, and
-                provided up-to-date documentation on team’s GitHub.
+                Introduced 10+ new features and classes to the new library,
+                added an abstraction layer for model initialization, cleaned up
+                the codebase, and provided up-to-date documentation on GitHub.
               </p>
               <p>
-                Improved the existing seizure model using a 2D Gaussian kernel
-                to support convolutional computation and reconstructed the input
-                layer to process a more dynamic, randomized data model for
-                better compatibility with the enhanced library.
-              </p>
-              <p>
-                Performed sensitivity analysis, optimized model parameters, and
-                generated visualization graphs to analyze output results.
+                Transformed the existing data model to support Gaussian
+                convolution computation of neural dynamics.
               </p>
             </div>
           </div>
@@ -252,10 +297,7 @@
             src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
           />
           <img
-            src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-          />
-          <img
-            src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+            src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white"
           />
           <img
             src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
@@ -267,16 +309,22 @@
             src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"
           />
           <img
-            src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"
+            src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"
           />
           <img
-            src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"
+            src="https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white"
           />
           <img
             src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"
           />
           <img
+            src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"
+          />
+          <img
             src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"
+          />
+          <img
+            src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"
           />
           <img
             src="https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg"
@@ -345,7 +393,10 @@
             </ul>
           </div>
           <span class="copyright"
-            ><i class="fas fa-copyright"></i> Nghi Ho 2021-2022</span
+            >Website Template by
+            <a class="hyperlink" href="https://anniew.xyz/"
+              >@anniedotexe</a
+            ></span
           >
         </div>
         <div class="footer-column">

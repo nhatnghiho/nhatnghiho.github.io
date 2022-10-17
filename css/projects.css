@@ -54,6 +54,15 @@ em {
   color: #1d263b;
 }
 
+.project-awards {
+  margin-bottom: 12px;
+  padding-bottom: 2px;
+}
+
+.project-awards p {
+  color: #1d263b;
+}
+
 .project-links {
   display: flex;
   flex-wrap: nowrap;
